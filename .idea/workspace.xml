@@ -10,8 +10,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6272b8a1-950e-440d-98d6-524452e195f4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sources/glm/typealias.swift" beforeDir="false" afterPath="$PROJECT_DIR$/Sources/glm/typealias.swift" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -93,7 +93,7 @@
       <option name="presentableId" value="Default" />
       <updated>1568972658692</updated>
       <workItem from="1568972659826" duration="12000" />
-      <workItem from="1568973101924" duration="17946000" />
+      <workItem from="1568973101924" duration="18706000" />
     </task>
     <task id="LOCAL-00001" summary="up">
       <created>1569076549621</created>
@@ -102,8 +102,26 @@
       <option name="project" value="LOCAL" />
       <updated>1569076549621</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="up">
+      <created>1569082046788</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1569082046788</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="up" />
@@ -146,10 +164,10 @@
       <screen x="70" y="27" width="2490" height="1413" />
     </state>
     <state width="1199" height="342" key="GridCell.Tab.1.right/70.27.2490.1413@70.27.2490.1413" timestamp="1569075890598" />
-    <state x="256" y="461" width="862" height="552" key="Vcs.Push.Dialog.v2" timestamp="1569076555204">
+    <state x="256" y="461" width="862" height="552" key="Vcs.Push.Dialog.v2" timestamp="1569082048611">
       <screen x="70" y="27" width="2490" height="1413" />
     </state>
-    <state x="256" y="461" width="862" height="552" key="Vcs.Push.Dialog.v2/70.27.2490.1413@70.27.2490.1413" timestamp="1569076555204" />
+    <state x="256" y="461" width="862" height="552" key="Vcs.Push.Dialog.v2/70.27.2490.1413@70.27.2490.1413" timestamp="1569082048611" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

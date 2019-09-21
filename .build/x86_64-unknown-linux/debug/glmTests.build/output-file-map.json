@@ -1,0 +1,17 @@
+{
+  "": {
+    "swift-dependencies": "/home/elect/SwiftProjects/glm/.build/x86_64-unknown-linux/debug/glmTests.build/master.swiftdeps"
+  },
+  "/home/elect/SwiftProjects/glm/Tests/glmTests/XCTestManifests.swift": {
+    "dependencies": "/home/elect/SwiftProjects/glm/.build/x86_64-unknown-linux/debug/glmTests.build/XCTestManifests.d",
+    "object": "/home/elect/SwiftProjects/glm/.build/x86_64-unknown-linux/debug/glmTests.build/XCTestManifests.swift.o",
+    "swiftmodule": "/home/elect/SwiftProjects/glm/.build/x86_64-unknown-linux/debug/glmTests.build/XCTestManifests~partial.swiftmodule",
+    "swift-dependencies": "/home/elect/SwiftProjects/glm/.build/x86_64-unknown-linux/debug/glmTests.build/XCTestManifests.swiftdeps"
+  },
+  "/home/elect/SwiftProjects/glm/Tests/glmTests/glmTests.swift": {
+    "dependencies": "/home/elect/SwiftProjects/glm/.build/x86_64-unknown-linux/debug/glmTests.build/glmTests.d",
+    "object": "/home/elect/SwiftProjects/glm/.build/x86_64-unknown-linux/debug/glmTests.build/glmTests.swift.o",
+    "swiftmodule": "/home/elect/SwiftProjects/glm/.build/x86_64-unknown-linux/debug/glmTests.build/glmTests~partial.swiftmodule",
+    "swift-dependencies": "/home/elect/SwiftProjects/glm/.build/x86_64-unknown-linux/debug/glmTests.build/glmTests.swiftdeps"
+  }
+}

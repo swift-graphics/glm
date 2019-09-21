@@ -1,0 +1,349 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "array"
+- "vecArray"
+- "glmTests"
+- "benchmarkTime"
+provides-nominal:
+- "8glmTestsAAC"
+provides-member:
+- ["8glmTestsAAC", ""]
+- ["s5SIMD4V", ""]
+- ["s5SIMD4V", "init"]
+depends-top-level:
+- "%"
+- !private "*"
+- !private "*="
+- "+"
+- !private "+="
+- !private "-"
+- !private "..."
+- "..<"
+- !private "/"
+- !private "<"
+- !private ">"
+- !private "CFAbsoluteTimeGetCurrent"
+- "Double"
+- "Float"
+- "FloatLiteralType"
+- "Int"
+- "IntegerLiteralType"
+- "SIMD4"
+- "StringLiteralType"
+- !private "XCTAssertEqual"
+- "XCTestCase"
+- "array"
+- "benchmarkTime"
+- !private "glm"
+- "glmTests"
+- !private "print"
+- "rand"
+- "stride"
+- "vecArray"
+depends-member:
+- ["s18AdditiveArithmeticP", "init"]
+- !private ["Sa", "capacity"]
+- ["Sa", "count"]
+- !private ["Sa", "endIndex"]
+- ["Sa", "subscript"]
+- !private ["SK", "capacity"]
+- ["SK", "count"]
+- !private ["SK", "endIndex"]
+- ["SK", "map"]
+- ["SK", "subscript"]
+- ["SB", "init"]
+- ["s7CVarArgP", "init"]
+- !private ["Sl", "capacity"]
+- ["Sl", "count"]
+- !private ["Sl", "endIndex"]
+- ["Sl", "map"]
+- ["Sl", "subscript"]
+- ["SL", "init"]
+- !private ["10Foundation15ContiguousBytesP", "capacity"]
+- ["10Foundation15ContiguousBytesP", "count"]
+- !private ["10Foundation15ContiguousBytesP", "endIndex"]
+- ["10Foundation15ContiguousBytesP", "subscript"]
+- !private ["s28CustomDebugStringConvertibleP", "capacity"]
+- ["s28CustomDebugStringConvertibleP", "count"]
+- !private ["s28CustomDebugStringConvertibleP", "endIndex"]
+- ["s28CustomDebugStringConvertibleP", "init"]
+- ["s28CustomDebugStringConvertibleP", "map"]
+- ["s28CustomDebugStringConvertibleP", "subscript"]
+- !private ["s17CustomReflectableP", "capacity"]
+- ["s17CustomReflectableP", "count"]
+- !private ["s17CustomReflectableP", "endIndex"]
+- ["s17CustomReflectableP", "init"]
+- ["s17CustomReflectableP", "map"]
+- ["s17CustomReflectableP", "subscript"]
+- !private ["s23CustomStringConvertibleP", "appendInterpolation"]
+- !private ["s23CustomStringConvertibleP", "appendLiteral"]
+- !private ["s23CustomStringConvertibleP", "capacity"]
+- ["s23CustomStringConvertibleP", "count"]
+- !private ["s23CustomStringConvertibleP", "endIndex"]
+- ["s23CustomStringConvertibleP", "init"]
+- ["s23CustomStringConvertibleP", "map"]
+- ["s23CustomStringConvertibleP", "subscript"]
+- !private ["10Foundation12DataProtocolP", "capacity"]
+- ["10Foundation12DataProtocolP", "count"]
+- !private ["10Foundation12DataProtocolP", "endIndex"]
+- ["10Foundation12DataProtocolP", "subscript"]
+- !private ["Se", "capacity"]
+- ["Se", "count"]
+- !private ["Se", "endIndex"]
+- ["Se", "init"]
+- ["Se", "map"]
+- ["Se", "subscript"]
+- !private ["s26DefaultStringInterpolationV", "appendInterpolation"]
+- !private ["s26DefaultStringInterpolationV", "appendLiteral"]
+- !private ["SE", "capacity"]
+- ["SE", "count"]
+- !private ["SE", "endIndex"]
+- ["SE", "init"]
+- ["SE", "map"]
+- ["SE", "subscript"]
+- !private ["SQ", "capacity"]
+- ["SQ", "count"]
+- !private ["SQ", "endIndex"]
+- ["SQ", "init"]
+- ["SQ", "map"]
+- ["SQ", "subscript"]
+- !private ["s25ExpressibleByArrayLiteralP", "capacity"]
+- ["s25ExpressibleByArrayLiteralP", "count"]
+- !private ["s25ExpressibleByArrayLiteralP", "endIndex"]
+- ["s25ExpressibleByArrayLiteralP", "init"]
+- ["s25ExpressibleByArrayLiteralP", "subscript"]
+- ["s25ExpressibleByFloatLiteralP", "init"]
+- ["s27ExpressibleByIntegerLiteralP", "init"]
+- ["Sf", "init"]
+- ["SF", "init"]
+- !private ["SH", "capacity"]
+- ["SH", "count"]
+- !private ["SH", "endIndex"]
+- ["SH", "init"]
+- ["SH", "map"]
+- ["SH", "subscript"]
+- !private ["6XCTest8ListableP", "XCTAssertEqual"]
+- ["6XCTest8ListableP", ""]
+- !private ["6XCTest8ListableP", "array"]
+- !private ["6XCTest8ListableP", "benchmarkTime"]
+- !private ["6XCTest8ListableP", "doNormalCount"]
+- !private ["6XCTest8ListableP", "doSimdCount"]
+- !private ["6XCTest8ListableP", "glm"]
+- !private ["6XCTest8ListableP", "init"]
+- !private ["6XCTest8ListableP", "print"]
+- !private ["6XCTest8ListableP", "stride"]
+- ["6XCTest8ListableP", "testExample"]
+- !private ["6XCTest8ListableP", "vecArray"]
+- ["s25LosslessStringConvertibleP", "init"]
+- !private ["SM", "capacity"]
+- ["SM", "count"]
+- !private ["SM", "endIndex"]
+- ["SM", "subscript"]
+- !private ["10Foundation19MutableDataProtocolP", "capacity"]
+- ["10Foundation19MutableDataProtocolP", "count"]
+- !private ["10Foundation19MutableDataProtocolP", "endIndex"]
+- ["10Foundation19MutableDataProtocolP", "subscript"]
+- ["Sj", "init"]
+- !private ["6XCTest24PerformanceMeterDelegateP", "XCTAssertEqual"]
+- ["6XCTest24PerformanceMeterDelegateP", ""]
+- !private ["6XCTest24PerformanceMeterDelegateP", "array"]
+- !private ["6XCTest24PerformanceMeterDelegateP", "benchmarkTime"]
+- !private ["6XCTest24PerformanceMeterDelegateP", "doNormalCount"]
+- !private ["6XCTest24PerformanceMeterDelegateP", "doSimdCount"]
+- !private ["6XCTest24PerformanceMeterDelegateP", "glm"]
+- !private ["6XCTest24PerformanceMeterDelegateP", "init"]
+- !private ["6XCTest24PerformanceMeterDelegateP", "print"]
+- !private ["6XCTest24PerformanceMeterDelegateP", "stride"]
+- ["6XCTest24PerformanceMeterDelegateP", "testExample"]
+- !private ["6XCTest24PerformanceMeterDelegateP", "vecArray"]
+- !private ["Sk", "capacity"]
+- ["Sk", "count"]
+- !private ["Sk", "endIndex"]
+- ["Sk", "map"]
+- ["Sk", "subscript"]
+- ["Sn", "map"]
+- ["SX", "map"]
+- !private ["Sm", "capacity"]
+- ["Sm", "count"]
+- !private ["Sm", "endIndex"]
+- ["Sm", "subscript"]
+- ["s4SIMDP", "init"]
+- ["s5SIMD4V", "init"]
+- ["s10SIMDScalarP", "init"]
+- ["s11SIMDStorageP", "init"]
+- !private ["ST", "capacity"]
+- ["ST", "count"]
+- !private ["ST", "endIndex"]
+- ["ST", "map"]
+- ["ST", "subscript"]
+- ["s13SignedNumericP", "init"]
+- ["s8StrideToV", "map"]
+- ["Sx", "init"]
+- !private ["s27StringInterpolationProtocolP", "appendInterpolation"]
+- !private ["s27StringInterpolationProtocolP", "appendLiteral"]
+- !private ["s16TextOutputStreamP", "appendInterpolation"]
+- !private ["s16TextOutputStreamP", "appendLiteral"]
+- ["s20TextOutputStreamableP", "init"]
+- !private ["6XCTest17XCTWaiterDelegateP", "XCTAssertEqual"]
+- ["6XCTest17XCTWaiterDelegateP", ""]
+- !private ["6XCTest17XCTWaiterDelegateP", "array"]
+- !private ["6XCTest17XCTWaiterDelegateP", "benchmarkTime"]
+- !private ["6XCTest17XCTWaiterDelegateP", "doNormalCount"]
+- !private ["6XCTest17XCTWaiterDelegateP", "doSimdCount"]
+- !private ["6XCTest17XCTWaiterDelegateP", "glm"]
+- !private ["6XCTest17XCTWaiterDelegateP", "init"]
+- !private ["6XCTest17XCTWaiterDelegateP", "print"]
+- !private ["6XCTest17XCTWaiterDelegateP", "stride"]
+- ["6XCTest17XCTWaiterDelegateP", "testExample"]
+- !private ["6XCTest17XCTWaiterDelegateP", "vecArray"]
+- ["6XCTestAAC", "Float"]
+- !private ["6XCTestAAC", "XCTAssertEqual"]
+- ["6XCTestAAC", "allTests"]
+- !private ["6XCTestAAC", "array"]
+- !private ["6XCTestAAC", "benchmarkTime"]
+- ["6XCTestAAC", "doNormalCount"]
+- ["6XCTestAAC", "doSimdCount"]
+- !private ["6XCTestAAC", "glm"]
+- !private ["6XCTestAAC", "print"]
+- ["6XCTestAAC", "sign"]
+- !private ["6XCTestAAC", "stride"]
+- ["6XCTestAAC", "testExample"]
+- !private ["6XCTestAAC", "vecArray"]
+- ["6XCTest0A4CaseC", "Float"]
+- !private ["6XCTest0A4CaseC", "XCTAssertEqual"]
+- ["6XCTest0A4CaseC", ""]
+- ["6XCTest0A4CaseC", "allTests"]
+- !private ["6XCTest0A4CaseC", "array"]
+- !private ["6XCTest0A4CaseC", "benchmarkTime"]
+- ["6XCTest0A4CaseC", "doNormalCount"]
+- ["6XCTest0A4CaseC", "doSimdCount"]
+- !private ["6XCTest0A4CaseC", "glm"]
+- ["6XCTest0A4CaseC", "init"]
+- !private ["6XCTest0A4CaseC", "print"]
+- ["6XCTest0A4CaseC", "sign"]
+- !private ["6XCTest0A4CaseC", "stride"]
+- ["6XCTest0A4CaseC", "testExample"]
+- !private ["6XCTest0A4CaseC", "vecArray"]
+- !private ["s14_ArrayProtocolP", "capacity"]
+- ["s14_ArrayProtocolP", "count"]
+- !private ["s14_ArrayProtocolP", "endIndex"]
+- ["s14_ArrayProtocolP", "subscript"]
+- !private ["10Foundation13_CFBridgeableP", "capacity"]
+- ["10Foundation13_CFBridgeableP", "count"]
+- !private ["10Foundation13_CFBridgeableP", "endIndex"]
+- ["10Foundation13_CFBridgeableP", "subscript"]
+- ["s15_CVarArgAlignedP", "init"]
+- ["s22_CVarArgPassedAsDoubleP", "init"]
+- ["s30_CustomPlaygroundQuickLookableP", "init"]
+- !private ["s24_DestructorSafeContainerP", "capacity"]
+- ["s24_DestructorSafeContainerP", "count"]
+- !private ["s24_DestructorSafeContainerP", "endIndex"]
+- ["s24_DestructorSafeContainerP", "subscript"]
+- ["s33_ExpressibleByBuiltinFloatLiteralP", "init"]
+- ["s35_ExpressibleByBuiltinIntegerLiteralP", "init"]
+- !private ["s19_HasContiguousBytesP", "capacity"]
+- ["s19_HasContiguousBytesP", "count"]
+- !private ["s19_HasContiguousBytesP", "endIndex"]
+- ["s19_HasContiguousBytesP", "subscript"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "capacity"]
+- ["s35_HasCustomAnyHashableRepresentationP", "count"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "endIndex"]
+- ["s35_HasCustomAnyHashableRepresentationP", "init"]
+- ["s35_HasCustomAnyHashableRepresentationP", "subscript"]
+- !private ["10Foundation13_NSBridgeableP", "capacity"]
+- ["10Foundation13_NSBridgeableP", "count"]
+- !private ["10Foundation13_NSBridgeableP", "endIndex"]
+- ["10Foundation13_NSBridgeableP", "subscript"]
+- !private ["s21_ObjectiveCBridgeableP", "capacity"]
+- ["s21_ObjectiveCBridgeableP", "count"]
+- !private ["s21_ObjectiveCBridgeableP", "endIndex"]
+- ["s21_ObjectiveCBridgeableP", "init"]
+- ["s21_ObjectiveCBridgeableP", "subscript"]
+- !private ["3glmAAV", "init"]
+- !private ["3glmAAV", "text"]
+- ["8glmTestsAAC", "Float"]
+- !private ["8glmTestsAAC", "XCTAssertEqual"]
+- ["8glmTestsAAC", "allTests"]
+- !private ["8glmTestsAAC", "array"]
+- !private ["8glmTestsAAC", "benchmarkTime"]
+- ["8glmTestsAAC", "doNormalCount"]
+- ["8glmTestsAAC", "doSimdCount"]
+- !private ["8glmTestsAAC", "glm"]
+- ["8glmTestsAAC", "init"]
+- !private ["8glmTestsAAC", "print"]
+- ["8glmTestsAAC", "sign"]
+- !private ["8glmTestsAAC", "stride"]
+- ["8glmTestsAAC", "testExample"]
+- !private ["8glmTestsAAC", "vecArray"]
+depends-nominal:
+- "s18AdditiveArithmeticP"
+- "Sa"
+- "SK"
+- "SB"
+- "s7CVarArgP"
+- "Sl"
+- "SL"
+- "10Foundation15ContiguousBytesP"
+- "s28CustomDebugStringConvertibleP"
+- "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- "10Foundation12DataProtocolP"
+- "Se"
+- !private "s26DefaultStringInterpolationV"
+- "SE"
+- "SQ"
+- "s25ExpressibleByArrayLiteralP"
+- "s25ExpressibleByFloatLiteralP"
+- "s27ExpressibleByIntegerLiteralP"
+- "Sf"
+- "SF"
+- "SH"
+- "6XCTest8ListableP"
+- "s25LosslessStringConvertibleP"
+- "SM"
+- "10Foundation19MutableDataProtocolP"
+- "Sj"
+- "6XCTest24PerformanceMeterDelegateP"
+- "Sk"
+- "Sn"
+- "SX"
+- "Sm"
+- "s4SIMDP"
+- "s5SIMD4V"
+- "s10SIMDScalarP"
+- "s11SIMDStorageP"
+- "ST"
+- "s13SignedNumericP"
+- "s8StrideToV"
+- "Sx"
+- !private "s27StringInterpolationProtocolP"
+- !private "s16TextOutputStreamP"
+- "s20TextOutputStreamableP"
+- "6XCTest17XCTWaiterDelegateP"
+- "6XCTestAAC"
+- "6XCTest0A4CaseC"
+- "s14_ArrayProtocolP"
+- "10Foundation13_CFBridgeableP"
+- "s15_CVarArgAlignedP"
+- "s22_CVarArgPassedAsDoubleP"
+- "s30_CustomPlaygroundQuickLookableP"
+- "s24_DestructorSafeContainerP"
+- "s33_ExpressibleByBuiltinFloatLiteralP"
+- "s35_ExpressibleByBuiltinIntegerLiteralP"
+- "s19_HasContiguousBytesP"
+- "s35_HasCustomAnyHashableRepresentationP"
+- "10Foundation13_NSBridgeableP"
+- "s21_ObjectiveCBridgeableP"
+- !private "3glmAAV"
+- "8glmTestsAAC"
+depends-dynamic-lookup:
+depends-external:
+- "/usr/local/bin/swift-5.1-DEVELOPMENT-SNAPSHOT-2019-09-16-a-ubuntu18.04/usr/lib/swift/linux/x86_64/Glibc.swiftmodule"
+- "/usr/local/bin/swift-5.1-DEVELOPMENT-SNAPSHOT-2019-09-16-a-ubuntu18.04/usr/lib/swift/linux/x86_64/Dispatch.swiftmodule"
+- "/home/elect/SwiftProjects/glm/.build/x86_64-unknown-linux/debug/glm.swiftmodule"
+- "/usr/local/bin/swift-5.1-DEVELOPMENT-SNAPSHOT-2019-09-16-a-ubuntu18.04/usr/lib/swift/linux/x86_64/Foundation.swiftmodule"
+- "/usr/local/bin/swift-5.1-DEVELOPMENT-SNAPSHOT-2019-09-16-a-ubuntu18.04/usr/lib/swift/linux/x86_64/Swift.swiftmodule"
+- "/usr/local/bin/swift-5.1-DEVELOPMENT-SNAPSHOT-2019-09-16-a-ubuntu18.04/usr/lib/swift/linux/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/usr/local/bin/swift-5.1-DEVELOPMENT-SNAPSHOT-2019-09-16-a-ubuntu18.04/usr/lib/swift/linux/x86_64/XCTest.swiftmodule"
+- "/usr/local/bin/swift-5.1-DEVELOPMENT-SNAPSHOT-2019-09-16-a-ubuntu18.04/usr/lib/swift/linux/x86_64/glibc.modulemap"
+interface-hash: "ada10afd0a898e8f0d10590e2286dd0f"

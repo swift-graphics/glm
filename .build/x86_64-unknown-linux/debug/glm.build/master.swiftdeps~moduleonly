@@ -1,0 +1,5 @@
+version: "Swift version 5.1-dev (LLVM b47beb8a70, Swift 279ca888b5)"
+options: "22f4863c6c6f2d5f9461d8a2fa955050"
+build_time: [1569076088, 840854927]
+inputs:
+  "/home/elect/SwiftProjects/glm/Sources/glm/typealias.swift": !dirty [1569076088, 758055316]

@@ -1,6 +1,5 @@
 ### Swift dependencies file v0 ###
 provides-top-level:
-- "glm"
 - "vec1"
 - "vec2"
 - "vec3"
@@ -22,25 +21,23 @@ provides-top-level:
 - "bvec3"
 - "bvec4"
 provides-nominal:
-- "3glmAAV"
 provides-member:
-- ["3glmAAV", ""]
 depends-top-level:
-- "Bool"
 - "Double"
 - "Float"
 - "Int"
 - "SIMD2"
 - "SIMD3"
 - "SIMD4"
-- "StringLiteralType"
 - "UInt"
 - "bvec1"
+- "bvec2"
+- "bvec3"
+- "bvec4"
 - "dvec1"
 - "dvec2"
 - "dvec3"
 - "dvec4"
-- "glm"
 - "ivec1"
 - "ivec2"
 - "ivec3"
@@ -54,13 +51,13 @@ depends-top-level:
 - "vec3"
 - "vec4"
 depends-member:
-- ["3glmAAV", "init"]
-- ["3glmAAV", "text"]
 depends-nominal:
-- "3glmAAV"
 depends-dynamic-lookup:
 depends-external:
-- "/usr/local/bin/swift-5.1-DEVELOPMENT-SNAPSHOT-2019-09-16-a-ubuntu18.04/usr/lib/swift/linux/x86_64/Swift.swiftmodule"
-- "/usr/local/bin/swift-5.1-DEVELOPMENT-SNAPSHOT-2019-09-16-a-ubuntu18.04/usr/lib/swift/linux/x86_64/SwiftOnoneSupport.swiftmodule"
-- "/usr/local/bin/swift-5.1-DEVELOPMENT-SNAPSHOT-2019-09-16-a-ubuntu18.04/usr/lib/swift/linux/x86_64/glibc.modulemap"
-interface-hash: "ef4afb1ca5a7494134da1aec6a475814"
+- "/usr/local/bin/swift-5.1-RELEASE-ubuntu18.04/usr/lib/swift/linux/x86_64/Glibc.swiftmodule"
+- "/usr/local/bin/swift-5.1-RELEASE-ubuntu18.04/usr/lib/swift/linux/x86_64/Dispatch.swiftmodule"
+- "/usr/local/bin/swift-5.1-RELEASE-ubuntu18.04/usr/lib/swift/linux/x86_64/Foundation.swiftmodule"
+- "/usr/local/bin/swift-5.1-RELEASE-ubuntu18.04/usr/lib/swift/linux/x86_64/Swift.swiftmodule"
+- "/usr/local/bin/swift-5.1-RELEASE-ubuntu18.04/usr/lib/swift/linux/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/usr/local/bin/swift-5.1-RELEASE-ubuntu18.04/usr/lib/swift/linux/x86_64/glibc.modulemap"
+interface-hash: "d58a303b1ee4d580adb5aa5dae199120"

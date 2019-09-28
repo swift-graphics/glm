@@ -2,6 +2,12 @@
   "": {
     "swift-dependencies": "/home/elect/SwiftProjects/glm/.build/x86_64-unknown-linux/debug/glm.build/master.swiftdeps"
   },
+  "/home/elect/SwiftProjects/glm/Sources/glm/ivec4.swift": {
+    "dependencies": "/home/elect/SwiftProjects/glm/.build/x86_64-unknown-linux/debug/glm.build/ivec4.d",
+    "object": "/home/elect/SwiftProjects/glm/.build/x86_64-unknown-linux/debug/glm.build/ivec4.swift.o",
+    "swiftmodule": "/home/elect/SwiftProjects/glm/.build/x86_64-unknown-linux/debug/glm.build/ivec4~partial.swiftmodule",
+    "swift-dependencies": "/home/elect/SwiftProjects/glm/.build/x86_64-unknown-linux/debug/glm.build/ivec4.swiftdeps"
+  },
   "/home/elect/SwiftProjects/glm/Sources/glm/typealias.swift": {
     "dependencies": "/home/elect/SwiftProjects/glm/.build/x86_64-unknown-linux/debug/glm.build/typealias.d",
     "object": "/home/elect/SwiftProjects/glm/.build/x86_64-unknown-linux/debug/glm.build/typealias.swift.o",

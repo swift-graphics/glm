@@ -10,6 +10,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6272b8a1-950e-440d-98d6-524452e195f4" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Sources/glm/ivec4.swift" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.build/build.db" beforeDir="false" afterPath="$PROJECT_DIR$/.build/build.db" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.build/debug.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/.build/debug.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.build/manifest.db" beforeDir="false" afterPath="$PROJECT_DIR$/.build/manifest.db" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.build/x86_64-unknown-linux/debug/glm.build/master.swiftdeps" beforeDir="false" afterPath="$PROJECT_DIR$/.build/x86_64-unknown-linux/debug/glm.build/master.swiftdeps" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.build/x86_64-unknown-linux/debug/glm.build/master.swiftdeps~moduleonly" beforeDir="false" afterPath="$PROJECT_DIR$/.build/x86_64-unknown-linux/debug/glm.build/master.swiftdeps~moduleonly" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.build/x86_64-unknown-linux/debug/glm.build/output-file-map.json" beforeDir="false" afterPath="$PROJECT_DIR$/.build/x86_64-unknown-linux/debug/glm.build/output-file-map.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.build/x86_64-unknown-linux/debug/glm.build/typealias.d" beforeDir="false" afterPath="$PROJECT_DIR$/.build/x86_64-unknown-linux/debug/glm.build/typealias.d" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.build/x86_64-unknown-linux/debug/glm.build/typealias.swiftdeps" beforeDir="false" afterPath="$PROJECT_DIR$/.build/x86_64-unknown-linux/debug/glm.build/typealias.swiftdeps" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.build/x86_64-unknown-linux/debug/glmPackageTests.product/Objects.LinkFileList" beforeDir="false" afterPath="$PROJECT_DIR$/.build/x86_64-unknown-linux/debug/glmPackageTests.product/Objects.LinkFileList" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.build/x86_64-unknown-linux/debug/index/store/v5/units/typealias.swift.o-1KL3ZO5V1M6R4" beforeDir="false" afterPath="$PROJECT_DIR$/.build/x86_64-unknown-linux/debug/index/store/v5/units/typealias.swift.o-1KL3ZO5V1M6R4" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Sources/glm/typealias.swift" beforeDir="false" afterPath="$PROJECT_DIR$/Sources/glm/typealias.swift" afterDir="false" />
     </list>
@@ -49,7 +60,7 @@
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../glfw" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -63,24 +74,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Swift Package Test.glmTests.testExample">
+  <component name="RunManager">
     <configuration name="glmTests" type="SwiftPackageManagerTestRunConfiguration" factoryName="Swift Package Test" PASS_PARENT_ENVS_2="true" PROJECT_NAME="glm" TARGET_NAME="glmTests" CONFIG_NAME="glmTests" RUN_TARGET_PROJECT_NAME="glm" RUN_TARGET_NAME="glmTests" TEST_MODE="SUITE_TEST">
       <method v="2">
         <option name="SPM.BUILD_TASK_PROVIDER" enabled="true" />
         <option name="BeforeTestRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="glmTests.testExample" type="SwiftPackageManagerTestRunConfiguration" factoryName="Swift Package Test" temporary="true" PASS_PARENT_ENVS_2="true" PROJECT_NAME="glm" TARGET_NAME="glmTests" CONFIG_NAME="Swift Package Run" RUN_TARGET_PROJECT_NAME="glm" RUN_TARGET_NAME="glmTests" TEST_CLASS="glmTests" TEST_METHOD="testExample" TEST_MODE="SUITE_TEST">
-      <method v="2">
-        <option name="SPM.BUILD_TASK_PROVIDER" enabled="true" />
-        <option name="BeforeTestRunTask" enabled="true" />
-      </method>
-    </configuration>
-    <recent_temporary>
-      <list>
-        <item itemvalue="Swift Package Test.glmTests.testExample" />
-      </list>
-    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -93,7 +93,9 @@
       <option name="presentableId" value="Default" />
       <updated>1568972658692</updated>
       <workItem from="1568972659826" duration="12000" />
-      <workItem from="1568973101924" duration="18706000" />
+      <workItem from="1568973101924" duration="19316000" />
+      <workItem from="1569319610255" duration="17000" />
+      <workItem from="1569690439082" duration="801000" />
     </task>
     <task id="LOCAL-00001" summary="up">
       <created>1569076549621</created>
@@ -109,15 +111,27 @@
       <option name="project" value="LOCAL" />
       <updated>1569082046788</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="public">
+      <created>1569085087896</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1569085087896</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
@@ -125,45 +139,46 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="up" />
-    <option name="LAST_COMMIT_MESSAGE" value="up" />
+    <MESSAGE value="public" />
+    <option name="LAST_COMMIT_MESSAGE" value="public" />
   </component>
   <component name="WindowStateProjectService">
     <state x="470" y="491" width="424" height="491" key="FileChooserDialogImpl" timestamp="1569076259834">
       <screen x="70" y="27" width="2490" height="1413" />
     </state>
     <state x="470" y="491" width="424" height="491" key="FileChooserDialogImpl/70.27.2490.1413@70.27.2490.1413" timestamp="1569076259834" />
-    <state width="1199" height="342" key="GridCell.Tab.0.bottom" timestamp="1569075890597">
+    <state width="1199" height="342" key="GridCell.Tab.0.bottom" timestamp="1569319599613">
       <screen x="70" y="27" width="2490" height="1413" />
     </state>
-    <state width="1199" height="342" key="GridCell.Tab.0.bottom/70.27.2490.1413@70.27.2490.1413" timestamp="1569075890597" />
-    <state width="1199" height="342" key="GridCell.Tab.0.center" timestamp="1569075890597">
+    <state width="1199" height="342" key="GridCell.Tab.0.bottom/70.27.2490.1413@70.27.2490.1413" timestamp="1569319599613" />
+    <state width="1199" height="342" key="GridCell.Tab.0.center" timestamp="1569319599613">
       <screen x="70" y="27" width="2490" height="1413" />
     </state>
-    <state width="1199" height="342" key="GridCell.Tab.0.center/70.27.2490.1413@70.27.2490.1413" timestamp="1569075890597" />
-    <state width="1199" height="342" key="GridCell.Tab.0.left" timestamp="1569075890597">
+    <state width="1199" height="342" key="GridCell.Tab.0.center/70.27.2490.1413@70.27.2490.1413" timestamp="1569319599613" />
+    <state width="1199" height="342" key="GridCell.Tab.0.left" timestamp="1569319599613">
       <screen x="70" y="27" width="2490" height="1413" />
     </state>
-    <state width="1199" height="342" key="GridCell.Tab.0.left/70.27.2490.1413@70.27.2490.1413" timestamp="1569075890597" />
-    <state width="1199" height="342" key="GridCell.Tab.0.right" timestamp="1569075890597">
+    <state width="1199" height="342" key="GridCell.Tab.0.left/70.27.2490.1413@70.27.2490.1413" timestamp="1569319599613" />
+    <state width="1199" height="342" key="GridCell.Tab.0.right" timestamp="1569319599613">
       <screen x="70" y="27" width="2490" height="1413" />
     </state>
-    <state width="1199" height="342" key="GridCell.Tab.0.right/70.27.2490.1413@70.27.2490.1413" timestamp="1569075890597" />
-    <state width="1199" height="342" key="GridCell.Tab.1.bottom" timestamp="1569075890598">
+    <state width="1199" height="342" key="GridCell.Tab.0.right/70.27.2490.1413@70.27.2490.1413" timestamp="1569319599613" />
+    <state width="1199" height="342" key="GridCell.Tab.1.bottom" timestamp="1569319599614">
       <screen x="70" y="27" width="2490" height="1413" />
     </state>
-    <state width="1199" height="342" key="GridCell.Tab.1.bottom/70.27.2490.1413@70.27.2490.1413" timestamp="1569075890598" />
-    <state width="1199" height="342" key="GridCell.Tab.1.center" timestamp="1569075890598">
+    <state width="1199" height="342" key="GridCell.Tab.1.bottom/70.27.2490.1413@70.27.2490.1413" timestamp="1569319599614" />
+    <state width="1199" height="342" key="GridCell.Tab.1.center" timestamp="1569319599613">
       <screen x="70" y="27" width="2490" height="1413" />
     </state>
-    <state width="1199" height="342" key="GridCell.Tab.1.center/70.27.2490.1413@70.27.2490.1413" timestamp="1569075890598" />
-    <state width="1199" height="342" key="GridCell.Tab.1.left" timestamp="1569075890597">
+    <state width="1199" height="342" key="GridCell.Tab.1.center/70.27.2490.1413@70.27.2490.1413" timestamp="1569319599613" />
+    <state width="1199" height="342" key="GridCell.Tab.1.left" timestamp="1569319599613">
       <screen x="70" y="27" width="2490" height="1413" />
     </state>
-    <state width="1199" height="342" key="GridCell.Tab.1.left/70.27.2490.1413@70.27.2490.1413" timestamp="1569075890597" />
-    <state width="1199" height="342" key="GridCell.Tab.1.right" timestamp="1569075890598">
+    <state width="1199" height="342" key="GridCell.Tab.1.left/70.27.2490.1413@70.27.2490.1413" timestamp="1569319599613" />
+    <state width="1199" height="342" key="GridCell.Tab.1.right" timestamp="1569319599614">
       <screen x="70" y="27" width="2490" height="1413" />
     </state>
-    <state width="1199" height="342" key="GridCell.Tab.1.right/70.27.2490.1413@70.27.2490.1413" timestamp="1569075890598" />
+    <state width="1199" height="342" key="GridCell.Tab.1.right/70.27.2490.1413@70.27.2490.1413" timestamp="1569319599614" />
     <state x="256" y="461" width="862" height="552" key="Vcs.Push.Dialog.v2" timestamp="1569082048611">
       <screen x="70" y="27" width="2490" height="1413" />
     </state>

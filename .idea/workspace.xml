@@ -10,48 +10,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6272b8a1-950e-440d-98d6-524452e195f4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Sources/glm/uvec3.swift" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.build/build.db" beforeDir="false" afterPath="$PROJECT_DIR$/.build/build.db" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.build/debug.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/.build/debug.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.build/manifest.db" beforeDir="false" afterPath="$PROJECT_DIR$/.build/manifest.db" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.build/x86_64-unknown-linux/debug/glm.build/master.swiftdeps" beforeDir="false" afterPath="$PROJECT_DIR$/.build/x86_64-unknown-linux/debug/glm.build/master.swiftdeps" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.build/x86_64-unknown-linux/debug/glm.build/master.swiftdeps~moduleonly" beforeDir="false" afterPath="$PROJECT_DIR$/.build/x86_64-unknown-linux/debug/glm.build/master.swiftdeps~moduleonly" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.build/x86_64-unknown-linux/debug/glm.build/output-file-map.json" beforeDir="false" afterPath="$PROJECT_DIR$/.build/x86_64-unknown-linux/debug/glm.build/output-file-map.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.build/x86_64-unknown-linux/debug/glm.build/typealias.d" beforeDir="false" afterPath="$PROJECT_DIR$/.build/x86_64-unknown-linux/debug/glm.build/typealias.d" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.build/x86_64-unknown-linux/debug/glm.build/typealias.swiftdeps" beforeDir="false" afterPath="$PROJECT_DIR$/.build/x86_64-unknown-linux/debug/glm.build/typealias.swiftdeps" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.build/x86_64-unknown-linux/debug/glm.swiftdoc" beforeDir="false" afterPath="$PROJECT_DIR$/.build/x86_64-unknown-linux/debug/glm.swiftdoc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.build/x86_64-unknown-linux/debug/glm.swiftmodule" beforeDir="false" afterPath="$PROJECT_DIR$/.build/x86_64-unknown-linux/debug/glm.swiftmodule" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.build/x86_64-unknown-linux/debug/glmPackageTests.build/LinuxMain.d" beforeDir="false" afterPath="$PROJECT_DIR$/.build/x86_64-unknown-linux/debug/glmPackageTests.build/LinuxMain.d" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.build/x86_64-unknown-linux/debug/glmPackageTests.build/LinuxMain.swift.o" beforeDir="false" afterPath="$PROJECT_DIR$/.build/x86_64-unknown-linux/debug/glmPackageTests.build/LinuxMain.swift.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.build/x86_64-unknown-linux/debug/glmPackageTests.build/LinuxMain.swiftdeps" beforeDir="false" afterPath="$PROJECT_DIR$/.build/x86_64-unknown-linux/debug/glmPackageTests.build/LinuxMain.swiftdeps" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.build/x86_64-unknown-linux/debug/glmPackageTests.build/LinuxMain~partial.swiftdoc" beforeDir="false" afterPath="$PROJECT_DIR$/.build/x86_64-unknown-linux/debug/glmPackageTests.build/LinuxMain~partial.swiftdoc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.build/x86_64-unknown-linux/debug/glmPackageTests.build/LinuxMain~partial.swiftmodule" beforeDir="false" afterPath="$PROJECT_DIR$/.build/x86_64-unknown-linux/debug/glmPackageTests.build/LinuxMain~partial.swiftmodule" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.build/x86_64-unknown-linux/debug/glmPackageTests.build/master.swiftdeps" beforeDir="false" afterPath="$PROJECT_DIR$/.build/x86_64-unknown-linux/debug/glmPackageTests.build/master.swiftdeps" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.build/x86_64-unknown-linux/debug/glmPackageTests.build/master.swiftdeps~moduleonly" beforeDir="false" afterPath="$PROJECT_DIR$/.build/x86_64-unknown-linux/debug/glmPackageTests.build/master.swiftdeps~moduleonly" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.build/x86_64-unknown-linux/debug/glmPackageTests.product/Objects.LinkFileList" beforeDir="false" afterPath="$PROJECT_DIR$/.build/x86_64-unknown-linux/debug/glmPackageTests.product/Objects.LinkFileList" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.build/x86_64-unknown-linux/debug/glmPackageTests.swiftdoc" beforeDir="false" afterPath="$PROJECT_DIR$/.build/x86_64-unknown-linux/debug/glmPackageTests.swiftdoc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.build/x86_64-unknown-linux/debug/glmPackageTests.swiftmodule" beforeDir="false" afterPath="$PROJECT_DIR$/.build/x86_64-unknown-linux/debug/glmPackageTests.swiftmodule" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.build/x86_64-unknown-linux/debug/glmPackageTests.xctest" beforeDir="false" afterPath="$PROJECT_DIR$/.build/x86_64-unknown-linux/debug/glmPackageTests.xctest" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.build/x86_64-unknown-linux/debug/glmTests.build/XCTestManifests.d" beforeDir="false" afterPath="$PROJECT_DIR$/.build/x86_64-unknown-linux/debug/glmTests.build/XCTestManifests.d" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.build/x86_64-unknown-linux/debug/glmTests.build/XCTestManifests.swift.o" beforeDir="false" afterPath="$PROJECT_DIR$/.build/x86_64-unknown-linux/debug/glmTests.build/XCTestManifests.swift.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.build/x86_64-unknown-linux/debug/glmTests.build/XCTestManifests.swiftdeps" beforeDir="false" afterPath="$PROJECT_DIR$/.build/x86_64-unknown-linux/debug/glmTests.build/XCTestManifests.swiftdeps" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.build/x86_64-unknown-linux/debug/glmTests.build/XCTestManifests~partial.swiftdoc" beforeDir="false" afterPath="$PROJECT_DIR$/.build/x86_64-unknown-linux/debug/glmTests.build/XCTestManifests~partial.swiftdoc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.build/x86_64-unknown-linux/debug/glmTests.build/XCTestManifests~partial.swiftmodule" beforeDir="false" afterPath="$PROJECT_DIR$/.build/x86_64-unknown-linux/debug/glmTests.build/XCTestManifests~partial.swiftmodule" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.build/x86_64-unknown-linux/debug/glmTests.build/glmTests.d" beforeDir="false" afterPath="$PROJECT_DIR$/.build/x86_64-unknown-linux/debug/glmTests.build/glmTests.d" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.build/x86_64-unknown-linux/debug/glmTests.build/glmTests.swift.o" beforeDir="false" afterPath="$PROJECT_DIR$/.build/x86_64-unknown-linux/debug/glmTests.build/glmTests.swift.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.build/x86_64-unknown-linux/debug/glmTests.build/glmTests.swiftdeps" beforeDir="false" afterPath="$PROJECT_DIR$/.build/x86_64-unknown-linux/debug/glmTests.build/glmTests.swiftdeps" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.build/x86_64-unknown-linux/debug/glmTests.build/glmTests~partial.swiftdoc" beforeDir="false" afterPath="$PROJECT_DIR$/.build/x86_64-unknown-linux/debug/glmTests.build/glmTests~partial.swiftdoc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.build/x86_64-unknown-linux/debug/glmTests.build/glmTests~partial.swiftmodule" beforeDir="false" afterPath="$PROJECT_DIR$/.build/x86_64-unknown-linux/debug/glmTests.build/glmTests~partial.swiftmodule" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.build/x86_64-unknown-linux/debug/glmTests.build/master.swiftdeps" beforeDir="false" afterPath="$PROJECT_DIR$/.build/x86_64-unknown-linux/debug/glmTests.build/master.swiftdeps" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.build/x86_64-unknown-linux/debug/glmTests.build/master.swiftdeps~moduleonly" beforeDir="false" afterPath="$PROJECT_DIR$/.build/x86_64-unknown-linux/debug/glmTests.build/master.swiftdeps~moduleonly" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.build/x86_64-unknown-linux/debug/glmTests.swiftdoc" beforeDir="false" afterPath="$PROJECT_DIR$/.build/x86_64-unknown-linux/debug/glmTests.swiftdoc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.build/x86_64-unknown-linux/debug/glmTests.swiftmodule" beforeDir="false" afterPath="$PROJECT_DIR$/.build/x86_64-unknown-linux/debug/glmTests.swiftmodule" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.build/x86_64-unknown-linux/debug/index/store/v5/units/LinuxMain.swift.o-2CJFP11H9ZWV0" beforeDir="false" afterPath="$PROJECT_DIR$/.build/x86_64-unknown-linux/debug/index/store/v5/units/LinuxMain.swift.o-2CJFP11H9ZWV0" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.build/x86_64-unknown-linux/debug/index/store/v5/units/XCTestManifests.swift.o-NTXDP1VBZIYV" beforeDir="false" afterPath="$PROJECT_DIR$/.build/x86_64-unknown-linux/debug/index/store/v5/units/XCTestManifests.swift.o-NTXDP1VBZIYV" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.build/x86_64-unknown-linux/debug/index/store/v5/units/glmTests.swift.o-GB1O2VGR0EYR" beforeDir="false" afterPath="$PROJECT_DIR$/.build/x86_64-unknown-linux/debug/index/store/v5/units/glmTests.swift.o-GB1O2VGR0EYR" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.build/x86_64-unknown-linux/debug/index/store/v5/units/typealias.swift.o-1KL3ZO5V1M6R4" beforeDir="false" afterPath="$PROJECT_DIR$/.build/x86_64-unknown-linux/debug/index/store/v5/units/typealias.swift.o-1KL3ZO5V1M6R4" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tests/glmTests/glmTests.swift" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/glmTests/glmTests.swift" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -133,7 +92,8 @@
       <workItem from="1569690439082" duration="832000" />
       <workItem from="1569698687390" duration="615000" />
       <workItem from="1569754711524" duration="11000" />
-      <workItem from="1569884880437" duration="1410000" />
+      <workItem from="1569884880437" duration="1430000" />
+      <workItem from="1569944974173" duration="631000" />
     </task>
     <task id="LOCAL-00001" summary="up">
       <created>1569076549621</created>
@@ -163,7 +123,14 @@
       <option name="project" value="LOCAL" />
       <updated>1569698575206</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="uvec3 constructor">
+      <created>1569892168399</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1569892168399</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -188,29 +155,30 @@
     <MESSAGE value="up" />
     <MESSAGE value="public" />
     <MESSAGE value="*Int32" />
-    <option name="LAST_COMMIT_MESSAGE" value="*Int32" />
+    <MESSAGE value="uvec3 constructor" />
+    <option name="LAST_COMMIT_MESSAGE" value="uvec3 constructor" />
   </component>
   <component name="WindowStateProjectService">
     <state x="470" y="491" width="424" height="491" key="FileChooserDialogImpl" timestamp="1569753216601">
       <screen x="70" y="27" width="2490" height="1413" />
     </state>
     <state x="470" y="491" width="424" height="491" key="FileChooserDialogImpl/70.27.2490.1413@70.27.2490.1413" timestamp="1569753216601" />
-    <state width="1199" height="342" key="GridCell.Tab.0.bottom" timestamp="1569319599613">
+    <state width="1199" height="394" key="GridCell.Tab.0.bottom" timestamp="1569892177345">
       <screen x="70" y="27" width="2490" height="1413" />
     </state>
-    <state width="1199" height="342" key="GridCell.Tab.0.bottom/70.27.2490.1413@70.27.2490.1413" timestamp="1569319599613" />
-    <state width="1199" height="342" key="GridCell.Tab.0.center" timestamp="1569319599613">
+    <state width="1199" height="394" key="GridCell.Tab.0.bottom/70.27.2490.1413@70.27.2490.1413" timestamp="1569892177345" />
+    <state width="1199" height="394" key="GridCell.Tab.0.center" timestamp="1569892177343">
       <screen x="70" y="27" width="2490" height="1413" />
     </state>
-    <state width="1199" height="342" key="GridCell.Tab.0.center/70.27.2490.1413@70.27.2490.1413" timestamp="1569319599613" />
-    <state width="1199" height="342" key="GridCell.Tab.0.left" timestamp="1569319599613">
+    <state width="1199" height="394" key="GridCell.Tab.0.center/70.27.2490.1413@70.27.2490.1413" timestamp="1569892177343" />
+    <state width="1199" height="394" key="GridCell.Tab.0.left" timestamp="1569892177342">
       <screen x="70" y="27" width="2490" height="1413" />
     </state>
-    <state width="1199" height="342" key="GridCell.Tab.0.left/70.27.2490.1413@70.27.2490.1413" timestamp="1569319599613" />
-    <state width="1199" height="342" key="GridCell.Tab.0.right" timestamp="1569319599613">
+    <state width="1199" height="394" key="GridCell.Tab.0.left/70.27.2490.1413@70.27.2490.1413" timestamp="1569892177342" />
+    <state width="1199" height="394" key="GridCell.Tab.0.right" timestamp="1569892177344">
       <screen x="70" y="27" width="2490" height="1413" />
     </state>
-    <state width="1199" height="342" key="GridCell.Tab.0.right/70.27.2490.1413@70.27.2490.1413" timestamp="1569319599613" />
+    <state width="1199" height="394" key="GridCell.Tab.0.right/70.27.2490.1413@70.27.2490.1413" timestamp="1569892177344" />
     <state width="1199" height="342" key="GridCell.Tab.1.bottom" timestamp="1569319599614">
       <screen x="70" y="27" width="2490" height="1413" />
     </state>
@@ -227,10 +195,10 @@
       <screen x="70" y="27" width="2490" height="1413" />
     </state>
     <state width="1199" height="342" key="GridCell.Tab.1.right/70.27.2490.1413@70.27.2490.1413" timestamp="1569319599614" />
-    <state x="256" y="461" width="862" height="552" key="Vcs.Push.Dialog.v2" timestamp="1569698576233">
+    <state x="256" y="461" width="862" height="552" key="Vcs.Push.Dialog.v2" timestamp="1569892170242">
       <screen x="70" y="27" width="2490" height="1413" />
     </state>
-    <state x="256" y="461" width="862" height="552" key="Vcs.Push.Dialog.v2/70.27.2490.1413@70.27.2490.1413" timestamp="1569698576233" />
+    <state x="256" y="461" width="862" height="552" key="Vcs.Push.Dialog.v2/70.27.2490.1413@70.27.2490.1413" timestamp="1569892170242" />
     <state x="334" y="499" width="707" height="468" key="find.popup" timestamp="1569754716650">
       <screen x="70" y="27" width="2490" height="1413" />
     </state>

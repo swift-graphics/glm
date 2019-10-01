@@ -93,7 +93,8 @@
       <workItem from="1569698687390" duration="615000" />
       <workItem from="1569754711524" duration="11000" />
       <workItem from="1569884880437" duration="1430000" />
-      <workItem from="1569944974173" duration="631000" />
+      <workItem from="1569944974173" duration="678000" />
+      <workItem from="1569949987061" duration="9000" />
     </task>
     <task id="LOCAL-00001" summary="up">
       <created>1569076549621</created>
@@ -130,7 +131,14 @@
       <option name="project" value="LOCAL" />
       <updated>1569892168399</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="public">
+      <created>1569947529055</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1569947529055</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -153,10 +161,10 @@
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
     <MESSAGE value="up" />
-    <MESSAGE value="public" />
     <MESSAGE value="*Int32" />
     <MESSAGE value="uvec3 constructor" />
-    <option name="LAST_COMMIT_MESSAGE" value="uvec3 constructor" />
+    <MESSAGE value="public" />
+    <option name="LAST_COMMIT_MESSAGE" value="public" />
   </component>
   <component name="WindowStateProjectService">
     <state x="470" y="491" width="424" height="491" key="FileChooserDialogImpl" timestamp="1569753216601">
@@ -195,10 +203,10 @@
       <screen x="70" y="27" width="2490" height="1413" />
     </state>
     <state width="1199" height="342" key="GridCell.Tab.1.right/70.27.2490.1413@70.27.2490.1413" timestamp="1569319599614" />
-    <state x="256" y="461" width="862" height="552" key="Vcs.Push.Dialog.v2" timestamp="1569892170242">
+    <state x="256" y="461" width="862" height="552" key="Vcs.Push.Dialog.v2" timestamp="1569947530168">
       <screen x="70" y="27" width="2490" height="1413" />
     </state>
-    <state x="256" y="461" width="862" height="552" key="Vcs.Push.Dialog.v2/70.27.2490.1413@70.27.2490.1413" timestamp="1569892170242" />
+    <state x="256" y="461" width="862" height="552" key="Vcs.Push.Dialog.v2/70.27.2490.1413@70.27.2490.1413" timestamp="1569947530168" />
     <state x="334" y="499" width="707" height="468" key="find.popup" timestamp="1569754716650">
       <screen x="70" y="27" width="2490" height="1413" />
     </state>

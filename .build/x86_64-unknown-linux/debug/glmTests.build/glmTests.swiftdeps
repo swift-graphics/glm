@@ -30,11 +30,10 @@ depends-top-level:
 - "IntegerLiteralType"
 - "SIMD4"
 - "StringLiteralType"
-- !private "XCTAssertEqual"
 - "XCTestCase"
 - "array"
 - "benchmarkTime"
-- !private "glm"
+- !private "bvec1"
 - "glmTests"
 - !private "print"
 - "rand"
@@ -52,6 +51,7 @@ depends-member:
 - ["SK", "map"]
 - ["SK", "subscript"]
 - ["SB", "init"]
+- !private ["Sz", "init"]
 - ["s7CVarArgP", "init"]
 - !private ["Sl", "capacity"]
 - ["Sl", "count"]
@@ -114,6 +114,7 @@ depends-member:
 - ["s25ExpressibleByArrayLiteralP", "subscript"]
 - ["s25ExpressibleByFloatLiteralP", "init"]
 - ["s27ExpressibleByIntegerLiteralP", "init"]
+- !private ["s17FixedWidthIntegerP", "init"]
 - ["Sf", "init"]
 - ["SF", "init"]
 - !private ["SH", "capacity"]
@@ -122,13 +123,13 @@ depends-member:
 - ["SH", "init"]
 - ["SH", "map"]
 - ["SH", "subscript"]
-- !private ["6XCTest8ListableP", "XCTAssertEqual"]
+- !private ["s5Int32V", "init"]
 - ["6XCTest8ListableP", ""]
 - !private ["6XCTest8ListableP", "array"]
 - !private ["6XCTest8ListableP", "benchmarkTime"]
+- !private ["6XCTest8ListableP", "bvec1"]
 - !private ["6XCTest8ListableP", "doNormalCount"]
 - !private ["6XCTest8ListableP", "doSimdCount"]
-- !private ["6XCTest8ListableP", "glm"]
 - !private ["6XCTest8ListableP", "init"]
 - !private ["6XCTest8ListableP", "print"]
 - !private ["6XCTest8ListableP", "stride"]
@@ -144,13 +145,12 @@ depends-member:
 - !private ["10Foundation19MutableDataProtocolP", "endIndex"]
 - ["10Foundation19MutableDataProtocolP", "subscript"]
 - ["Sj", "init"]
-- !private ["6XCTest24PerformanceMeterDelegateP", "XCTAssertEqual"]
 - ["6XCTest24PerformanceMeterDelegateP", ""]
 - !private ["6XCTest24PerformanceMeterDelegateP", "array"]
 - !private ["6XCTest24PerformanceMeterDelegateP", "benchmarkTime"]
+- !private ["6XCTest24PerformanceMeterDelegateP", "bvec1"]
 - !private ["6XCTest24PerformanceMeterDelegateP", "doNormalCount"]
 - !private ["6XCTest24PerformanceMeterDelegateP", "doSimdCount"]
-- !private ["6XCTest24PerformanceMeterDelegateP", "glm"]
 - !private ["6XCTest24PerformanceMeterDelegateP", "init"]
 - !private ["6XCTest24PerformanceMeterDelegateP", "print"]
 - !private ["6XCTest24PerformanceMeterDelegateP", "stride"]
@@ -176,6 +176,7 @@ depends-member:
 - !private ["ST", "endIndex"]
 - ["ST", "map"]
 - ["ST", "subscript"]
+- !private ["SZ", "init"]
 - ["s13SignedNumericP", "init"]
 - ["s8StrideToV", "map"]
 - ["Sx", "init"]
@@ -184,40 +185,37 @@ depends-member:
 - !private ["s16TextOutputStreamP", "appendInterpolation"]
 - !private ["s16TextOutputStreamP", "appendLiteral"]
 - ["s20TextOutputStreamableP", "init"]
-- !private ["6XCTest17XCTWaiterDelegateP", "XCTAssertEqual"]
 - ["6XCTest17XCTWaiterDelegateP", ""]
 - !private ["6XCTest17XCTWaiterDelegateP", "array"]
 - !private ["6XCTest17XCTWaiterDelegateP", "benchmarkTime"]
+- !private ["6XCTest17XCTWaiterDelegateP", "bvec1"]
 - !private ["6XCTest17XCTWaiterDelegateP", "doNormalCount"]
 - !private ["6XCTest17XCTWaiterDelegateP", "doSimdCount"]
-- !private ["6XCTest17XCTWaiterDelegateP", "glm"]
 - !private ["6XCTest17XCTWaiterDelegateP", "init"]
 - !private ["6XCTest17XCTWaiterDelegateP", "print"]
 - !private ["6XCTest17XCTWaiterDelegateP", "stride"]
 - ["6XCTest17XCTWaiterDelegateP", "testExample"]
 - !private ["6XCTest17XCTWaiterDelegateP", "vecArray"]
 - ["6XCTestAAC", "Float"]
-- !private ["6XCTestAAC", "XCTAssertEqual"]
 - ["6XCTestAAC", "allTests"]
 - !private ["6XCTestAAC", "array"]
 - !private ["6XCTestAAC", "benchmarkTime"]
+- !private ["6XCTestAAC", "bvec1"]
 - ["6XCTestAAC", "doNormalCount"]
 - ["6XCTestAAC", "doSimdCount"]
-- !private ["6XCTestAAC", "glm"]
 - !private ["6XCTestAAC", "print"]
 - ["6XCTestAAC", "sign"]
 - !private ["6XCTestAAC", "stride"]
 - ["6XCTestAAC", "testExample"]
 - !private ["6XCTestAAC", "vecArray"]
 - ["6XCTest0A4CaseC", "Float"]
-- !private ["6XCTest0A4CaseC", "XCTAssertEqual"]
 - ["6XCTest0A4CaseC", ""]
 - ["6XCTest0A4CaseC", "allTests"]
 - !private ["6XCTest0A4CaseC", "array"]
 - !private ["6XCTest0A4CaseC", "benchmarkTime"]
+- !private ["6XCTest0A4CaseC", "bvec1"]
 - ["6XCTest0A4CaseC", "doNormalCount"]
 - ["6XCTest0A4CaseC", "doSimdCount"]
-- !private ["6XCTest0A4CaseC", "glm"]
 - ["6XCTest0A4CaseC", "init"]
 - !private ["6XCTest0A4CaseC", "print"]
 - ["6XCTest0A4CaseC", "sign"]
@@ -259,16 +257,13 @@ depends-member:
 - !private ["s21_ObjectiveCBridgeableP", "endIndex"]
 - ["s21_ObjectiveCBridgeableP", "init"]
 - ["s21_ObjectiveCBridgeableP", "subscript"]
-- !private ["3glmAAV", "init"]
-- !private ["3glmAAV", "text"]
 - ["8glmTestsAAC", "Float"]
-- !private ["8glmTestsAAC", "XCTAssertEqual"]
 - ["8glmTestsAAC", "allTests"]
 - !private ["8glmTestsAAC", "array"]
 - !private ["8glmTestsAAC", "benchmarkTime"]
+- !private ["8glmTestsAAC", "bvec1"]
 - ["8glmTestsAAC", "doNormalCount"]
 - ["8glmTestsAAC", "doSimdCount"]
-- !private ["8glmTestsAAC", "glm"]
 - ["8glmTestsAAC", "init"]
 - !private ["8glmTestsAAC", "print"]
 - ["8glmTestsAAC", "sign"]
@@ -280,6 +275,7 @@ depends-nominal:
 - "Sa"
 - "SK"
 - "SB"
+- !private "Sz"
 - "s7CVarArgP"
 - "Sl"
 - "SL"
@@ -295,9 +291,11 @@ depends-nominal:
 - "s25ExpressibleByArrayLiteralP"
 - "s25ExpressibleByFloatLiteralP"
 - "s27ExpressibleByIntegerLiteralP"
+- !private "s17FixedWidthIntegerP"
 - "Sf"
 - "SF"
 - "SH"
+- !private "s5Int32V"
 - "6XCTest8ListableP"
 - "s25LosslessStringConvertibleP"
 - "SM"
@@ -313,6 +311,7 @@ depends-nominal:
 - "s10SIMDScalarP"
 - "s11SIMDStorageP"
 - "ST"
+- !private "SZ"
 - "s13SignedNumericP"
 - "s8StrideToV"
 - "Sx"
@@ -334,16 +333,15 @@ depends-nominal:
 - "s35_HasCustomAnyHashableRepresentationP"
 - "10Foundation13_NSBridgeableP"
 - "s21_ObjectiveCBridgeableP"
-- !private "3glmAAV"
 - "8glmTestsAAC"
 depends-dynamic-lookup:
 depends-external:
-- "/usr/local/bin/swift-5.1-DEVELOPMENT-SNAPSHOT-2019-09-16-a-ubuntu18.04/usr/lib/swift/linux/x86_64/Glibc.swiftmodule"
-- "/usr/local/bin/swift-5.1-DEVELOPMENT-SNAPSHOT-2019-09-16-a-ubuntu18.04/usr/lib/swift/linux/x86_64/Dispatch.swiftmodule"
+- "/usr/local/bin/swift-5.1-RELEASE-ubuntu18.04/usr/lib/swift/linux/x86_64/Glibc.swiftmodule"
+- "/usr/local/bin/swift-5.1-RELEASE-ubuntu18.04/usr/lib/swift/linux/x86_64/Dispatch.swiftmodule"
 - "/home/elect/SwiftProjects/glm/.build/x86_64-unknown-linux/debug/glm.swiftmodule"
-- "/usr/local/bin/swift-5.1-DEVELOPMENT-SNAPSHOT-2019-09-16-a-ubuntu18.04/usr/lib/swift/linux/x86_64/Foundation.swiftmodule"
-- "/usr/local/bin/swift-5.1-DEVELOPMENT-SNAPSHOT-2019-09-16-a-ubuntu18.04/usr/lib/swift/linux/x86_64/Swift.swiftmodule"
-- "/usr/local/bin/swift-5.1-DEVELOPMENT-SNAPSHOT-2019-09-16-a-ubuntu18.04/usr/lib/swift/linux/x86_64/SwiftOnoneSupport.swiftmodule"
-- "/usr/local/bin/swift-5.1-DEVELOPMENT-SNAPSHOT-2019-09-16-a-ubuntu18.04/usr/lib/swift/linux/x86_64/XCTest.swiftmodule"
-- "/usr/local/bin/swift-5.1-DEVELOPMENT-SNAPSHOT-2019-09-16-a-ubuntu18.04/usr/lib/swift/linux/x86_64/glibc.modulemap"
+- "/usr/local/bin/swift-5.1-RELEASE-ubuntu18.04/usr/lib/swift/linux/x86_64/Foundation.swiftmodule"
+- "/usr/local/bin/swift-5.1-RELEASE-ubuntu18.04/usr/lib/swift/linux/x86_64/Swift.swiftmodule"
+- "/usr/local/bin/swift-5.1-RELEASE-ubuntu18.04/usr/lib/swift/linux/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/usr/local/bin/swift-5.1-RELEASE-ubuntu18.04/usr/lib/swift/linux/x86_64/XCTest.swiftmodule"
+- "/usr/local/bin/swift-5.1-RELEASE-ubuntu18.04/usr/lib/swift/linux/x86_64/glibc.modulemap"
 interface-hash: "ada10afd0a898e8f0d10590e2286dd0f"

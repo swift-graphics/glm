@@ -1,5 +1,5 @@
-version: "Swift version 5.1-dev (LLVM b47beb8a70, Swift 279ca888b5)"
-options: "d1c0a98059d5c2eed985c5d45a339d42"
-build_time: [1569072058, 820373030]
+version: "Swift version 5.1 (swift-5.1-RELEASE)"
+options: "8326d3c91c182c133676160ca70f24c3"
+build_time: [1569892153, 387708557]
 inputs:
   "/home/elect/SwiftProjects/glm/Tests/LinuxMain.swift": [1568873719, 617269466]

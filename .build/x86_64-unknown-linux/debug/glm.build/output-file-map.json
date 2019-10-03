@@ -14,10 +14,22 @@
     "swiftmodule": "/home/elect/SwiftProjects/glm/.build/x86_64-unknown-linux/debug/glm.build/typealias~partial.swiftmodule",
     "swift-dependencies": "/home/elect/SwiftProjects/glm/.build/x86_64-unknown-linux/debug/glm.build/typealias.swiftdeps"
   },
+  "/home/elect/SwiftProjects/glm/Sources/glm/uvec2.swift": {
+    "dependencies": "/home/elect/SwiftProjects/glm/.build/x86_64-unknown-linux/debug/glm.build/uvec2.d",
+    "object": "/home/elect/SwiftProjects/glm/.build/x86_64-unknown-linux/debug/glm.build/uvec2.swift.o",
+    "swiftmodule": "/home/elect/SwiftProjects/glm/.build/x86_64-unknown-linux/debug/glm.build/uvec2~partial.swiftmodule",
+    "swift-dependencies": "/home/elect/SwiftProjects/glm/.build/x86_64-unknown-linux/debug/glm.build/uvec2.swiftdeps"
+  },
   "/home/elect/SwiftProjects/glm/Sources/glm/uvec3.swift": {
     "dependencies": "/home/elect/SwiftProjects/glm/.build/x86_64-unknown-linux/debug/glm.build/uvec3.d",
     "object": "/home/elect/SwiftProjects/glm/.build/x86_64-unknown-linux/debug/glm.build/uvec3.swift.o",
     "swiftmodule": "/home/elect/SwiftProjects/glm/.build/x86_64-unknown-linux/debug/glm.build/uvec3~partial.swiftmodule",
     "swift-dependencies": "/home/elect/SwiftProjects/glm/.build/x86_64-unknown-linux/debug/glm.build/uvec3.swiftdeps"
+  },
+  "/home/elect/SwiftProjects/glm/Sources/glm/vec2.swift": {
+    "dependencies": "/home/elect/SwiftProjects/glm/.build/x86_64-unknown-linux/debug/glm.build/vec2.d",
+    "object": "/home/elect/SwiftProjects/glm/.build/x86_64-unknown-linux/debug/glm.build/vec2.swift.o",
+    "swiftmodule": "/home/elect/SwiftProjects/glm/.build/x86_64-unknown-linux/debug/glm.build/vec2~partial.swiftmodule",
+    "swift-dependencies": "/home/elect/SwiftProjects/glm/.build/x86_64-unknown-linux/debug/glm.build/vec2.swiftdeps"
   }
 }

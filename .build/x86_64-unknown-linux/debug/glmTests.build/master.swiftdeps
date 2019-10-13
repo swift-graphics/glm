@@ -1,6 +1,0 @@
-version: "Swift version 5.1 (swift-5.1-RELEASE)"
-options: "966947641a1d65cb531584af4d40817b"
-build_time: [1570116345, 232188702]
-inputs:
-  "/home/elect/SwiftProjects/glm/Tests/glmTests/XCTestManifests.swift": [1568873719, 617269466]
-  "/home/elect/SwiftProjects/glm/Tests/glmTests/glmTests.swift": [1569892152, 816142909]

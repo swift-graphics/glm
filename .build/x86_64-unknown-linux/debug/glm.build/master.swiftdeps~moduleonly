@@ -1,9 +1,0 @@
-version: "Swift version 5.1 (swift-5.1-RELEASE)"
-options: "bf02477d6ffad9dbeb707088b079d9b3"
-build_time: [1570116344, 995871946]
-inputs:
-  "/home/elect/SwiftProjects/glm/Sources/glm/ivec4.swift": [1569690583, 958433441]
-  "/home/elect/SwiftProjects/glm/Sources/glm/typealias.swift": [1569698550, 590198269]
-  "/home/elect/SwiftProjects/glm/Sources/glm/uvec2.swift": [1569950004, 433645111]
-  "/home/elect/SwiftProjects/glm/Sources/glm/uvec3.swift": [1570116344, 899928286]
-  "/home/elect/SwiftProjects/glm/Sources/glm/vec2.swift": [1569950274, 616956235]
